@@ -122,7 +122,7 @@
             <div
               class="portfolio-item mx-auto"
               data-toggle="modal"
-              data-target="#portfolioModal1"
+              data-target="#caravanModal"
             >
               <div
                 class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
@@ -136,6 +136,29 @@
               <img
                 class="img-fluid"
                 src="assets/img/portfolio/projects/caravan/1.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- BookList -->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#bookListModal"
+            >
+              <div
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fas fa-search fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/portfolio/projects/bookList/1.png"
                 alt=""
               />
             </div>
@@ -576,7 +599,7 @@
     <!-- Caravan Modal -->
     <div
       class="portfolio-modal modal fade"
-      id="portfolioModal1"
+      id="caravanModal"
       tabindex="-1"
       role="dialog"
       aria-labelledby="portfolioModal1Label"
@@ -680,6 +703,111 @@
                     HTML ve CSS ile gerekli bölümlerinde düzenlemeleri yaptım ve
                     kullanıcı deneyimini iyi bir seviyeye getirmeyi amaçladım.
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BookList Modal -->
+    <div
+      class="portfolio-modal modal fade"
+      id="bookListModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- BookList Modal - Title-->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase"
+                    id="portfolioModal1Label"
+                  >
+                    React BookList Projects
+                  </h2>
+                  <!-- Icon Divider-->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Slider  -->
+                  <div
+                    id="caravanControls"
+                    class="carousel slide projeImage"
+                    data-ride="carousel"
+                  >
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img
+                          src="assets/img/portfolio/projects/bookList/1.png"
+                          class="d-block w-100"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                    <!-- <button
+                      class="carousel-control-prev"
+                      type="button"
+                      data-target="#caravanControls"
+                      data-slide="prev"
+                    >
+                      <span
+                        class="carousel-control-prev-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Previous</span>
+                    </button>
+                    <button
+                      class="carousel-control-next"
+                      type="button"
+                      data-target="#caravanControls"
+                      data-slide="next"
+                    >
+                      <span
+                        class="carousel-control-next-icon"
+                        aria-hidden="true"
+                      ></span>
+                      <span class="sr-only">Next</span>
+                    </button> -->
+                  </div>
+                  <!-- BookList Modal - Text-->
+                  <p class="mb-5">
+                    React ile geliştirdiğim bir kitap listesi projesi. Okumak
+                    istediğiniz kitapları ekleyip daha sonra okuduğunuz
+                    kitapları listeden kaldırabildiğiniz bir proje. HTML, CSS
+                    yapıları ile stillendirmeleri yaptım. UUID npm paketi ile
+                    kitaplar eklenirken otomatik id atamalarını oluşturdum.
+                    Kitapların listesini context api yapısı kullanarak aldım ve
+                    kitapların listesini component şekilinde oluşturarak
+                    kullandım. Projenin github sayfasına aşağıdaki butondan
+                    ulaşabilirsiniz.
+                  </p>
+                  <a
+                    href="https://github.com/0hodo1/book-basic-list-react"
+                    class="btn btn-primary"
+                    target="_blank"
+                  >
+                    <i class="fas fa-arrow-right"></i>
+                    Go to Project
+                  </a>
                 </div>
               </div>
             </div>
