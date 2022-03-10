@@ -10672,3 +10672,9 @@ form .row:first-child .floating-label-form-group {
   line-height: 2.5rem;
   margin-top: 50px;
 }
+
+.star-main-color {
+  color: #1abc9c;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
