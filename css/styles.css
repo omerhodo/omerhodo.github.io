@@ -10666,3 +10666,9 @@ form .row:first-child .floating-label-form-group {
 .projeImage {
   height: 450px;
 }
+
+.page-section-second-heading {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-top: 50px;
+}
